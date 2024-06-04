@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    color: #ededed ;
+}
+.header{
+    position: fixed;
+    top:  0;
+    left: 0;
+    width: 100%;
+    padding: 15px 5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    margin-left: 1px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(image/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 190px 8% 0;;
+}
+.home-content{
+    max-width: 700px;
+    margin-top: 39%;
+}
+
+.home-content h3{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.home-content h3 span{
+    color: #0ef;
+}
+
+.home-content h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 50px 15px 25px 0;
+}
+.home-sci a:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px ;
+    font-size: 13px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
